@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(248, 247, 247);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.card{
+    border-radius: 10px;
+    box-shadow: 5px 4px 8px 0 rgba(0,0,0,0.29),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.bottom-left {
+    position: absolute;
+    font-size: 20px;
+    top:160px;
+    left: 10px;
+  }
+  .top-right{
+      position: absolute;
+      right:1px;
+      border: none;
+  }
+  #list{
+      display: flex;
+  }
+ .trash{
+      cursor: pointer;
+      border: none;
+      background-color: white;
+ }
+.trash:hover, .trash:active{
+    fill: red;
+ }
+ .checking{
+    cursor: pointer;
+    border: none;
+    background-color: white;
+ }
+ .checking:hover, .checking:active{
+    fill: green;
+ }
+ .debugg{
+     display: inline;
+ }
+ .t-trash{
+     display: inline;
+ }
+ #light{
+     color: grey;
+ }
